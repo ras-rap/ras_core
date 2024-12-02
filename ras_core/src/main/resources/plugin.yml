@@ -1,0 +1,15 @@
+name: ras_core
+version: 1.0
+main: ras.core.Plugin
+api-version: 1.21
+
+commands:
+  wearsuit:
+    description: "Puts on a suit over your current skin."
+    usage: "/wearsuit"
+  rc:
+    description: "General configuration commands for the plugin."
+    usage: "/rc api mineskin {api key}"
+  joinlobby:
+    description: "Join a matchmaking lobby."
+    usage: "/joinlobby"
